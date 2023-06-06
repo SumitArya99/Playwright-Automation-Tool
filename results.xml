@@ -1,0 +1,86 @@
+<testsuites id="" name="" tests="6" failures="1" skipped="0" errors="0" time="105.0052580000013">
+<testsuite name="clientApp.spec.js" timestamp="1677678141627" hostname="" tests="1" failures="0" skipped="0" time="14.026" errors="0">
+<testcase name="Automation For Website Login" classname="[chromium] › clientApp.spec.js › Automation For Website Login" time="14.026">
+<system-out>
+<![CDATA[[ [32m'zara coat 3'[39m, [32m'adidas original'[39m, [32m'iphone 13 pro'[39m ]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="Framework.spec.js" timestamp="1677678141627" hostname="" tests="1" failures="0" skipped="0" time="5.307" errors="0">
+<testcase name="Automation For Website Login" classname="[chromium] › Framework.spec.js › Automation For Website Login" time="5.307">
+<system-out>
+<![CDATA[[]
+[33m0[39m
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="SalesforceLogin.spec.js" timestamp="1677678141627" hostname="" tests="1" failures="0" skipped="0" time="37.264" errors="0">
+<testcase name="Salesforce Login and Create Account in Salesforce" classname="[chromium] › SalesforceLogin.spec.js › Salesforce Login and Create Account in Salesforce" time="37.264">
+<system-out>
+<![CDATA[Login | Salesforce
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="SalesforceTask.spec.js" timestamp="1677678141627" hostname="" tests="1" failures="1" skipped="0" time="50.013" errors="0">
+<testcase name="Salesforce Login" classname="[chromium] › SalesforceTask.spec.js › Salesforce Login" time="50.013">
+<failure message="SalesforceTask.spec.js:34:6 Salesforce Login" type="FAILURE">
+<![CDATA[  [chromium] › SalesforceTask.spec.js:34:6 › Salesforce Login ======================================
+
+    Test timeout of 50000ms exceeded.
+
+    locator.click: Target closed
+    =========================== logs ===========================
+    waiting for locator('[name="Convert"]')
+    ============================================================
+
+      85 |     //Click on Convert Button---- Convert Lead to Account, Contact and Opportunity
+      86 |     await page.waitForTimeout(3000);
+    > 87 |     await page.locator('[name="Convert"]').click();
+         |                                            ^
+      88 |
+      89 |     //Click on Convert Button
+      90 |     await page.waitForTimeout(3000);
+
+        at D:\Playwright Task\tests\SalesforceTask.spec.js:87:44
+
+    Pending operations:
+      - locator.click at tests\SalesforceTask.spec.js:87:44
+
+
+    attachment #1: screenshot (image/png) ----------------------------------------------------------
+    test-results\SalesforceTask-Salesforce-Login-chromium\test-failed-1.png
+    ------------------------------------------------------------------------------------------------
+]]>
+</failure>
+<system-out>
+<![CDATA[Login | Salesforce
+]]>
+</system-out>
+<system-err>
+<![CDATA[
+Warning: attachment ..\test-results\SalesforceTask-Salesforce-Login-chromium\test-failed-1.png is missing]]>
+</system-err>
+</testcase>
+</testsuite>
+<testsuite name="UIBasictest.spec.js" timestamp="1677678141627" hostname="" tests="1" failures="0" skipped="0" time="13.808" errors="0">
+<testcase name="Automation For Website Login" classname="[chromium] › UIBasictest.spec.js › Automation For Website Login" time="13.808">
+<system-out>
+<![CDATA[LoginPage Practise | Rahul Shetty Academy
+Incorrect username/password.
+[]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="UIControls.spec.js" timestamp="1677678141627" hostname="" tests="1" failures="0" skipped="0" time="44.772" errors="0">
+<testcase name="Handling Blinking Text" classname="[chromium] › UIControls.spec.js › Handling Blinking Text" time="44.772">
+<system-out>
+<![CDATA[Locator@a[class='blinkingText']
+]]>
+</system-out>
+</testcase>
+</testsuite>
+</testsuites>

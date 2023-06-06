@@ -1,0 +1,26 @@
+[
+    {
+        "user_name": "aryasumit149@gmail.com",
+        "pass_word": "Sumitarya99@",
+        "productname": "zara coat 3",
+        "creditcard": "378282246310005",
+        "month": "04",
+        "Date": "14",
+        "CVV": "123",
+        "NameonCard": "Demo",
+        "mail": "aryasumit149@gmail.com",
+        "thankyou": " Thankyou for the order. "
+    },
+    {
+        "user_name": "boxer621993@gmail.com",
+        "pass_word": "Pass@123",
+        "productname": "iphone 13 pro",
+        "creditcard": "571862712842",
+        "month": "07",
+        "Date": "25",
+        "CVV": "874",
+        "NameonCard": "Boxer King",
+        "mail": "boxer621993@gmail.com",
+        "thankyou": " Thankyou for the order. "
+    }
+]
