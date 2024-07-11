@@ -41,10 +41,10 @@ test('Login in Salesforce Org and Getting Data From AppExchange For a App', asyn
     //Using type method -----to enter text in any field
 
     //Entering UserName
-    await username.type("sumit.arya@resilient-unicorn-4jj5tk.com");
+    await username.fill("sumit.arya@resilient-unicorn-4jj5tk.com");
 
     //Entering Password
-    await password.type("Arya@37199");
+    await password.fill("Arya@37199");
 
     //Click Login
     await Login.click();

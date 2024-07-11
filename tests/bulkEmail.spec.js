@@ -44,8 +44,7 @@ test('Go to Gmail Page', async ({ browser }) => {
       await compose.click();
 
       //Enter user mail id
-      //await page.waitForTimeout(3000);
-      //await page.waitFor();
+      await page.waitForTimeout(3000);
       await toEmail.type(`account@1a042oigkxyed61771orkf9kzg22szuktt98jcajlhfiopkgkj.5h-5fgexeak.ap25.apex.salesforce.com`);
 
       //Enter Email Subject

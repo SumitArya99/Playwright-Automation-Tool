@@ -1,1 +1,1 @@
-{"uid":"b1a8273437954620fa374b796ffaacdd","name":"behaviors","children":[]}
+{"uid":"b1a8273437954620fa374b796ffaacdd","name":"behaviors","children":[{"name":"Go to Gmail Page","uid":"340a9e562e62879f","parentUid":"b1a8273437954620fa374b796ffaacdd","status":"passed","time":{"start":1686314128584,"stop":1686314260796,"duration":132212},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":["firefox"],"tags":[]}]}

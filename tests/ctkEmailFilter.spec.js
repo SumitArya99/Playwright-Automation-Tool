@@ -76,6 +76,7 @@ test('Go to app launcher and Search CTK Email Parser and Create New Email Parser
     await emailParserName.type("Create New Record for Email");
 
     //Click on Checkbox
+    
     await page.waitForTimeout(3000);
     await checkBox.click();
 
@@ -349,7 +350,6 @@ test('Create Email Parser Actions', async ({ }) => {
     //Getting the Count of Source Option
     const sourceOptionValue = await sourceValueCount.count();
     console.log(sourceOptionValue);
-
 
     //Iterate Over Source Option.
     for (let s = 0; s < sourceOptionValue; ++s) {
